@@ -1,34 +1,34 @@
 # Python3Prototype
 Exemplo de implementação do padrão prototype em Python3
 
-PROTOTYPE
+### PROTOTYPE
 
 O padrão de projeto PROTOTYPE permite criar novos objetos clonando um objeto prototípico original. 
 
 
-O padrão é utilizado para:
+### O padrão é utilizado para:
 
 
-Evitar que as subclasses que criam objetos funcionem como o padrão abstract factory.
-Evitar criar um novo objeto utilizando a palavra new, o que diminui o custo de memória.
+* Evitar que as subclasses que criam objetos funcionem como o padrão abstract factory.
+* Evitar criar um novo objeto utilizando a palavra new, o que diminui o custo de memória.
 
 
 O padrão Prototype é principalmente utilizado quando existe a necessidade de copiar um objeto. Dessa forma,  pode-se dizer que sua aplicação realiza cópias exatas de algum objeto em tempo de execução e este padrão é altamente recomendado. Também pode ser utilizado em sistemas que precisam ser independentes da forma como os seus componentes são criados, compostos e representados.
 
 
-Vantagens:
+### Vantagens:
 
-Economia de memória.
+* Economia de memória.
 
-Pode realizar cópias em tempo de execução.
-
-
-Desvantagens:
-
-Deve-se ter cuidado com o uso da concorrência.
+* Pode realizar cópias em tempo de execução.
 
 
-EXEMPLO DE UTILIZAÇÃO EM PYTHON 3
+### Desvantagens:
+
+* Deve-se ter cuidado com o uso da concorrência.
+
+
+### EXEMPLO DE UTILIZAÇÃO EM PYTHON 3
 
 
 É necessário importar a biblioteca COPY, a qual permite fazer cópias de objetos de duas formas: cópia superficial(copy) e cópia profunda(deepcopy).
@@ -104,8 +104,11 @@ def main():
 ```
 
 Com isso criamos um objeto e seu clone.
+
+
 ![Original](https://github.com/A1S0N/Python3Prototype/blob/master/cyberdog.jpeg)
-![Clone](https://github.com/A1S0N/CPython3Prototype/blob/master/cyberdog.jpeg)
+![Clone](https://github.com/A1S0N/Python3Prototype/blob/master/cyberdog.jpeg)
+
 
 Por fim chamamos a função principal tendo em vista boas práticas de python:
 
